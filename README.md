@@ -71,14 +71,25 @@ A detailed Power BI dashboard was created to visualize the sentiment data and pr
 
 ### Visualizations:
 - **Sentiment Distribution**: Bar charts showing the distribution of positive, negative, and neutral comments for each video.
-   [**New 782hp Continental GT!**]![Carwow - Distribution GT](https://github.com/user-attachments/assets/26cafb3b-b308-4e62-8ff0-978b8b8b030e)
-   [**New MG Cyberster Review**]![Carwow - Distribution MG](https://github.com/user-attachments/assets/36e24ad3-bb39-4578-868e-8be0d2976071)
-   [**Has Porsche Ruined the New 911?**]![Carwow - Distribution Porsche](https://github.com/user-attachments/assets/1f88ca89-b1b1-4277-bb9f-93445a86e621)
-   [**NEW Tesla Model 3 Performance: 0-60mph & REVIEW**] ![Carwow - Distribution Tesla ](https://github.com/user-attachments/assets/e6bec275-9b44-4a3a-b36a-19d06291bd2a)
+[**New 782hp Continental GT!**]![Carwow - Distribution GT](https://github.com/user-attachments/assets/26cafb3b-b308-4e62-8ff0-978b8b8b030e)
+
+[**New MG Cyberster Review**]![Carwow - Distribution MG](https://github.com/user-attachments/assets/36e24ad3-bb39-4578-868e-8be0d2976071)
+
+[**Has Porsche Ruined the New 911?**]![Carwow - Distribution Porsche](https://github.com/user-attachments/assets/1f88ca89-b1b1-4277-bb9f-93445a86e621)
+
+[**NEW Tesla Model 3 Performance: 0-60mph & REVIEW**] ![Carwow - Distribution Tesla ](https://github.com/user-attachments/assets/e6bec275-9b44-4a3a-b36a-19d06291bd2a)
 
   
 - **Aspect Sentiment**: Average sentiment for each aspect (Matt & Team, Product Design, Brand Sentiment, etc.) with clear visual differentiation between positive and negative feedback.
-- **Sentiment Trends by Video**: A breakdown of the sentiment trends for each individual video.
+[**New 782hp Continental GT!**]![Carwow - Aspect GT](https://github.com/user-attachments/assets/e4bc8164-7a90-4822-a50e-be11d56de0be)
+
+[**New MG Cyberster Review**]![Carwow - Aspect MG](https://github.com/user-attachments/assets/564b72bf-d007-4eb7-9be9-a2fb776c59b5)
+
+[**Has Porsche Ruined the New 911?**]![Carwow - Aspect Porsche](https://github.com/user-attachments/assets/f9dd8a7a-420a-4009-a5ca-c8e421468a54)
+
+[**NEW Tesla Model 3 Performance: 0-60mph & REVIEW**]![Carwow - Aspect Tesla](https://github.com/user-attachments/assets/4d38d54f-d14d-4d3a-84d2-e861c1591202)
+
+
 
 ## Conclusion
 
