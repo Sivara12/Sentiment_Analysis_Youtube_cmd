@@ -21,14 +21,14 @@ This project focuses on analyzing the sentiment of YouTube comments on car revie
 
 ## Data Collection
 
-Data was collected using the YouTube API to scrape comments from each of the selected videos. After retrieving the comments, preprocessing steps were applied, such as:
-- Removing emojis, special characters, and irrelevant text for clean input.
+Data was collected using the YouTube API to scrape comments from each of the selected videos. After retrieving the comments, preprocessing steps were applied, including:
+- Removing emojis, special characters, and irrelevant text to clean the input data.
   
-This step ensured that the data was suitable for accurate sentiment analysis.
+This ensured that the data was suitable for accurate sentiment analysis.
 
 ## Sentiment Analysis
 
-The sentiment analysis was performed using several Python libraries, including:
+The sentiment analysis was performed using Python libraries, including:
 - **VADER** (Valence Aware Dictionary and sEntiment Reasoner) for sentiment scoring.
 - **NLTK** for natural language processing and text preprocessing.
 - **Pandas** for data handling and organization.
@@ -40,7 +40,7 @@ The sentiment analysis was performed using several Python libraries, including:
 
 ## Aspect-Based Sentiment Analysis
 
-To gain deeper insights, the comments were categorized into predefined *aspects*. These aspects helped to understand which areas were most discussed and how viewers felt about them:
+To gain deeper insights, the comments were categorized into predefined *aspects*. These aspects helped understand which areas were most discussed and how viewers felt about them:
 
 - **Product Design and Quality**: Comments related to the car's design, build quality, and features.
 - **Brand Sentiment**: Comments focusing on the viewer's perception of the car brands.
@@ -48,66 +48,63 @@ To gain deeper insights, the comments were categorized into predefined *aspects*
 - **Matt & Team**: Comments specifically referring to Matt Watson and his review team.
 
 ## BI Report Analysis
-
-![BI report](https://github.com/user-attachments/assets/b2cb3493-6ab7-40d9-b617-c54cdbfc402a)
+![BI report](https://github.com/user-attachments/assets/5b897544-eae9-40ed-a300-46614beb6a94)
 
 A detailed Power BI dashboard was created to visualize the sentiment data and provide key insights for the Carwow team. Below is a summary of the insights from the report:
 
 ### Key Metrics:
 1. **Total Sentiment Counts**: 
-   - The analysis revealed that the **MG Cyberster** video had the highest number of comments (1,144), followed by **Tesla Model 3** (790 comments). The **Porsche 911** and **Bentley Continental GT** had fewer comments but still garnered significant attention.
+   - The **MG Cyberster** video had the highest number of sentimental comments (1,144), followed by the **Tesla Model 3** video (790 comments). The **Porsche 911** and **Bentley Continental GT** videos had fewer comments but still garnered significant attention.
    
 2. **Sentiment for the Car Brands**:
-   - **Tesla** and **Bentley** had the highest proportion of positive sentiment, with an average sentiment score of **0.50** and **0.48**, respectively. In contrast, **MG** and **Porsche** saw a more negative average sentiment, with **-0.45** and **-0.48** scores.
+   - **Tesla** and **Bentley** had the highest proportion of positive sentiment, with average sentiment scores of **0.50** and **0.48**, respectively. In contrast, **MG** and **Porsche** saw more negative sentiment, with average scores of **-0.45** and **-0.48**.
 
 3. **Comments about Matt & Team**:
-   - The feedback on **Matt & Team** remained mostly positive across all videos. The **Tesla Model 3** video had the highest positive sentiment (56.29%), while the **Bentley** video had the highest negative feedback (61.33%). 
-   
+   - Feedback on **Matt & Team** was generally positive across all videos. The **Tesla Model 3** video had the highest positive sentiment (56.29%), while the **Bentley Continental GT** video had more negative feedback (61.33%).
+
 4. **Sentiment on Product Design**:
-   - The analysis highlighted that **Tesla Model 3** and **Bentley** were praised for their product design, receiving the most positive sentiment. However, **Porsche 911** and **MG Cyberster** saw more critical comments regarding their design.
-   
+   - The **Tesla Model 3** and **Bentley Continental GT** videos received the most praise for product design, with overwhelmingly positive comments. However, the **Porsche 911** and **MG Cyberster** videos attracted more critical remarks about their design.
+
 5. **Channel Sentiment**:
-   - The overall sentiment for **Carwow** as a platform was positive, with a strong appreciation for the content style, though certain negative comments surfaced regarding specific car models and design elements.
+   - The overall sentiment towards **Carwow** was positive, with strong appreciation for the content style. However, specific negative comments were made about certain car models and their design.
 
 ### Visualizations:
-- **Sentiment Distribution**: Bar charts showing the distribution of positive, negative, and neutral comments for each video.
-[**New 782hp Continental GT!**]![Carwow - Distribution GT](https://github.com/user-attachments/assets/26cafb3b-b308-4e62-8ff0-978b8b8b030e)
 
-[**New MG Cyberster Review**]![Carwow - Distribution MG](https://github.com/user-attachments/assets/36e24ad3-bb39-4578-868e-8be0d2976071)
-
-[**Has Porsche Ruined the New 911?**]![Carwow - Distribution Porsche](https://github.com/user-attachments/assets/1f88ca89-b1b1-4277-bb9f-93445a86e621)
-
-[**NEW Tesla Model 3 Performance: 0-60mph & REVIEW**] ![Carwow - Distribution Tesla ](https://github.com/user-attachments/assets/e6bec275-9b44-4a3a-b36a-19d06291bd2a)
-
+- **Sentiment Distribution**: Bar charts displaying the distribution of positive, negative, and neutral comments for each video.
   
-- **Aspect Sentiment**: Average sentiment for each aspect (Matt & Team, Product Design, Brand Sentiment, etc.) with clear visual differentiation between positive and negative feedback.
-[**New 782hp Continental GT!**]![Carwow - Aspect GT](https://github.com/user-attachments/assets/e4bc8164-7a90-4822-a50e-be11d56de0be)
+    - [**New 782hp Continental GT!**]
 
-[**New MG Cyberster Review**]![Carwow - Aspect MG](https://github.com/user-attachments/assets/564b72bf-d007-4eb7-9be9-a2fb776c59b5)
-
-[**Has Porsche Ruined the New 911?**]![Carwow - Aspect Porsche](https://github.com/user-attachments/assets/f9dd8a7a-420a-4009-a5ca-c8e421468a54)
-
-[**NEW Tesla Model 3 Performance: 0-60mph & REVIEW**]![Carwow - Aspect Tesla](https://github.com/user-attachments/assets/4d38d54f-d14d-4d3a-84d2-e861c1591202)
+      ![Carwow - Distribution GT](https://github.com/user-attachments/assets/26cafb3b-b308-4e62-8ff0-978b8b8b030e)
 
 
+
+    - [**New MG Cyberster Review**]
+
+       ![Carwow - Distribution MG](https://github.com/user-attachments/assets/36e24ad3-bb39-4578-868e-8be0d2976071)
+
+
+    - [**Has Porsche Ruined the New 911?**] ![Carwow - Distribution Porsche](https://github.com/user-attachments/assets/1f88ca89-b1b1-4277-bb9f-93445a86e621)
+    - [**NEW Tesla Model 3 Performance: 0-60mph & REVIEW**] ![Carwow - Distribution Tesla ](https://github.com/user-attachments/assets/e6bec275-9b44-4a3a-b36a-19d06291bd2a)
+
+- **Aspect Sentiment**: Average sentiment for each aspect (Matt & Team, Product Design, Brand Sentiment, etc.), highlighting clear differences between positive and negative feedback.
+
+  - [**New 782hp Continental GT!**]![Carwow - Aspect GT](https://github.com/user-attachments/assets/e4bc8164-7a90-4822-a50e-be11d56de0be)
+  - [**New MG Cyberster Review**]![Carwow - Aspect MG](https://github.com/user-attachments/assets/564b72bf-d007-4eb7-9be9-a2fb776c59b5)
+  - [**Has Porsche Ruined the New 911?**]![Carwow - Aspect Porsche](https://github.com/user-attachments/assets/f9dd8a7a-420a-4009-a5ca-c8e421468a54)
+  - [**NEW Tesla Model 3 Performance: 0-60mph & REVIEW**]![Carwow - Aspect Tesla](https://github.com/user-attachments/assets/4d38d54f-d14d-4d3a-84d2-e861c1591202)
+
+## Key Findings:
+
+- The *Product Design and Quality* aspect received the most positive sentiment, especially for the **Tesla Model 3** and **Bentley Continental GT** videos.
+- The *Brand Sentiment* aspect showed mixed reactions, with viewers showing concern on eletric car's
+- Feedback on *Matt & Team* remained consistently positive across all videos, reflecting high viewer engagement and appreciation.
+- The overall sentiment for **Carwow** was positive, though some negative feedback was tied to specific design elements in certain car models.
 
 ## Conclusion
 
-This project demonstrates how sentiment analysis can provide valuable insights into audience reactions. The findings can help content creators like **Matt Watson** and car brands understand how viewers perceive their videos and adjust their messaging accordingly. These insights are particularly useful for improving content strategy, addressing viewer concerns, and enhancing the overall viewing experience for Carwow's audience.
+This sentiment analysis provides valuable insights into audience reactions and perceptions of various car brands featured in Carwow's videos. The results can assist content creators, such as **Matt Watson**, and automotive brands in understanding how their content is received and adjusting their approach to better resonate with their audience. These insights are crucial for refining content strategy, addressing viewer concerns, and enhancing the overall viewer experience.
 
 ---
 
-## Results and Visualizations
-
-The following visualizations were generated:
-- **Sentiment Distribution**: A breakdown of positive, neutral, and negative comments for each video.
-- **Aspect Sentiment**: Visualizing the average sentiment score per aspect to show which areas viewers felt most positively or negatively about.
-
-Key Findings:
-- The *Product Design and Quality* aspect generally had the highest positive sentiment, especially for the Tesla Model 3 and Continental GT videos.
-- There was a mixed response in the *Brand Sentiment* aspect, with viewers showing concern in videos like "Has Porsche Ruined the New 911?"
-- Feedback on *Matt & Team* remained largely positive across all videos.
-
-## Conclusion
-
-This project highlights the importance of sentiment analysis in understanding audience reactions to content. The insights from this analysis could help content creators and car brands alike to tailor their messaging and product features based on viewer sentiment.
+## **Note:**
+This analysis is based solely on the comments provided by viewers under the videos and does not reflect opinions about the products themselves or the YouTube channel. The data was collected ethically using YouTube's publicly available API for research purposes only. No proprietary or sensitive data was used in this project, and the comments analyzed are publicly available to anyone viewing the videos.
