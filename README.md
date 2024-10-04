@@ -48,7 +48,9 @@ To gain deeper insights, the comments were categorized into predefined *aspects*
 - **Matt & Team**: Comments specifically referring to Matt Watson and his review team.
 
 ## BI Report Analysis
-![BI report](https://github.com/user-attachments/assets/5b897544-eae9-40ed-a300-46614beb6a94)
+
+![Carwow - BI report](https://github.com/user-attachments/assets/40093b1e-a6df-4d8f-b973-d27f6e922f00)
+
 
 A detailed Power BI dashboard was created to visualize the sentiment data and provide key insights for the Carwow team. Below is a summary of the insights from the report:
 
